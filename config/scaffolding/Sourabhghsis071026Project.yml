@@ -8,7 +8,23 @@ packages:
   gitUsername: sourabh-harkawat-0058QC744
   gitBranch: main
 - name: LowerFSPackage
+  version: "2.0"
   gitServerName: srcCtrl_github_Sourabh_shared2
   gitUrl: https://github.com/sourabh-harkawat-0058QC744
   gitUsername: sourabh-harkawat-0058QC744
   gitBranch: testbranch
+services:
+- serviceName: project.sourabhghsis071026.integrations:ss
+  packages:
+  - name: Sourabhghsis071026Project
+    version: "1.0"
+  - name: LowerFSPackage
+    version: "2.0"
+- serviceName: LowerFSPackage:lowerFS
+  packages:
+  - name: LowerFSPackage
+    version: "2.0"
+- serviceName: pub.string:toLower
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1216
