@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">interface</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">project.sourabhghsis071026</value>
+  <value name="node_pkg">Sourabhghsis071026Project</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Sourabh.Harkawat1@ibm.com</value>
+    <value name="modifiedBy">Sourabh.Harkawat1@ibm.com</value>
+    <value name="createdDate">2026-10-07T03:17:26.217846270Z</value>
+    <value name="lastModifiedDate">2026-10-07T03:17:26.217846270Z</value>
+  </record>
+  <value name="is_public">false</value>
+</Values>
